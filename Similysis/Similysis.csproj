@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Engine.cs" />
     <Compile Include="ISimilyzer.cs" />
+    <Compile Include="MatchFunction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

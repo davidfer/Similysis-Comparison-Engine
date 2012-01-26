@@ -21,5 +21,11 @@ namespace Similysis
         /// </summary>
         /// <returns>An XML encoded comparison report containing results, rankings, conclusions etc.</returns>
         string Report();
+
+        /// <summary>
+        /// Returns the current match function used in evaluation
+        /// </summary>
+        /// <returns></returns>
+        MatchFunction MatchFunction();
     }
 }
